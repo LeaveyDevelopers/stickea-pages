@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad — Stickea</title>
+<style>
+  :root { --ink:#1a1a1a; --muted:#555; --accent:#c96a12; --bg:#fdfcfa; --card:#f4f1ec; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font:16px/1.65 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:2rem 1.25rem 4rem; }
+  h1 { font-size:1.7rem; margin:.2rem 0 .3rem; }
+  h2 { font-size:1.15rem; margin-top:2.2rem; border-bottom:2px solid var(--card); padding-bottom:.3rem; }
+  .meta { color:var(--muted); font-size:.9rem; }
+  .summary { background:var(--card); border-left:4px solid var(--accent); padding:1rem 1.2rem;
+             border-radius:6px; margin:1.4rem 0; }
+  .lang-nav { font-size:.9rem; margin-bottom:1rem; }
+  .lang-nav a { color:var(--accent); }
+  table { border-collapse:collapse; width:100%; font-size:.92rem; }
+  th, td { text-align:left; padding:.5rem .6rem; border-bottom:1px solid var(--card); vertical-align:top; }
+  hr.divider { border:none; border-top:3px double var(--accent); margin:3.5rem 0; }
+  a { color:var(--accent); }
+  footer { max-width:760px; margin:0 auto; padding:0 1.25rem 2rem; color:var(--muted); font-size:.85rem; }
+</style>
+</head>
+<body>
+<main>
+
+<p class="lang-nav">🇪🇸 Español (esta sección) · <a href="#en">🇬🇧 English version below</a></p>
+
+<h1>Política de privacidad de Stickea</h1>
+<p class="meta">Responsable: Looker Developers (<a href="https://lookerdevelopers.com">lookerdevelopers.com</a>) ·
+Aplicación: Stickea para Android (<code>com.lookerdevelopers.stickea</code>) ·
+Fecha de entrada en vigor: 15 de agosto de 2026</p>
+
+<div class="summary">
+  <strong>Resumen:</strong> Stickea no recopila, transmite ni comparte ningún dato personal.
+  Todo el procesamiento ocurre exclusivamente en tu dispositivo. La aplicación
+  <strong>ni siquiera declara el permiso de acceso a Internet</strong>, por lo que es técnicamente
+  incapaz de enviar información a ningún servidor. Esta afirmación puede verificarse
+  inspeccionando el paquete de la aplicación.
+</div>
+
+<h2>1. Qué hace Stickea</h2>
+<p>Stickea es una herramienta para crear stickers a partir de capturas de tu pantalla. Permite
+capturar un fotograma (o una breve secuencia) de lo que se muestra en el dispositivo, recortarlo,
+quitarle el fondo, y exportarlo como sticker.</p>
+
+<h2>2. Datos que recopilamos: ninguno</h2>
+<ul>
+  <li>No hay cuentas de usuario ni registro.</li>
+  <li>No usamos analítica, publicidad, ni SDKs de terceros.</li>
+  <li>No recopilamos identificadores del dispositivo, ubicación, contactos ni ningún otro dato.</li>
+  <li>No hay servidores de Stickea: no existe infraestructura a la que enviar nada.</li>
+</ul>
+
+<h2>3. Captura de pantalla: cómo funciona y quién la controla</h2>
+<p>La captura de pantalla la inicias <strong>tú y solo tú</strong>, tocando el botón flotante de la
+aplicación. Antes de cada sesión de uso, el sistema Android muestra su propio diálogo de
+consentimiento de captura de pantalla, que puedes rechazar; Stickea no puede capturar nada sin ese
+consentimiento, y Android lo solicita de nuevo en cada sesión. Los fotogramas capturados se procesan
+únicamente en la memoria del dispositivo y se descartan salvo que decidas guardar el sticker
+resultante.</p>
+
+<h2>4. Almacenamiento local</h2>
+<p>Los stickers que guardas se almacenan en el área de almacenamiento privado de la aplicación en tu
+dispositivo. Puedes borrarlos individualmente o por packs desde la propia aplicación. Desinstalar la
+aplicación elimina todos los datos que esta guarda. Si creas una copia de seguridad (archivo ZIP),
+esa copia se guarda donde tú elijas y queda bajo tu control.</p>
+
+<h2>5. Cuándo sale contenido de tu dispositivo</h2>
+<p>Únicamente cuando tú lo decides mediante una acción explícita:</p>
+<ul>
+  <li>Añadir un pack de stickers a una aplicación de mensajería de terceros (p. ej. WhatsApp).</li>
+  <li>Enviar un sticker a un chat mediante la función de compartir de Android.</li>
+  <li>Guardar una imagen en la galería del dispositivo.</li>
+  <li>Compartir un archivo de copia de seguridad.</li>
+</ul>
+<p>A partir del momento en que entregas contenido a otra aplicación o servicio, ese contenido se
+rige por la política de privacidad del servicio receptor, que puede sincronizarlo con sus propios
+servidores o copias de seguridad (por ejemplo, los stickers añadidos a una aplicación de mensajería
+pueden sincronizarse según las condiciones de dicha aplicación). Stickea no participa en esa
+sincronización ni tiene acceso a ella.</p>
+
+<h2>6. Permisos que solicita la aplicación</h2>
+<table>
+  <tr><th>Permiso</th><th>Para qué se usa</th></tr>
+  <tr><td>Mostrar sobre otras aplicaciones</td>
+      <td>Dibujar el botón flotante y el recortador sobre la pantalla.</td></tr>
+  <tr><td>Servicio en primer plano (captura de pantalla)</td>
+      <td>Mantener activa la sesión de captura mientras usas el botón flotante, con una
+          notificación visible que te permite detenerla en cualquier momento.</td></tr>
+  <tr><td>Notificaciones</td>
+      <td>Mostrar la notificación de estado del botón flotante y su acción de detener.</td></tr>
+</table>
+<p>La aplicación <strong>no</strong> solicita acceso a Internet, ubicación, contactos, cámara,
+micrófono ni a tus archivos (salvo el guardado en galería que tú inicias, que usa el mecanismo del
+sistema sin permiso de lectura).</p>
+
+<h2>7. Menores</h2>
+<p>Stickea no está dirigida a menores de 13 años. En cualquier caso, la aplicación no recopila
+datos de ningún usuario, incluidos los menores.</p>
+
+<h2>8. Tu responsabilidad sobre el contenido</h2>
+<p>Lo que aparece en tu pantalla cuando decides capturarla es contenido que tú eliges. Eres el
+único responsable de asegurarte de que tienes derecho a capturar, usar y compartir ese contenido.
+Consulta los <a href="terms.html">Términos de uso</a>.</p>
+
+<h2>9. Cambios en esta política</h2>
+<p>Si esta política cambia, publicaremos la versión actualizada en esta misma dirección con una
+nueva fecha de entrada en vigor. Un cambio que afectara al principio fundamental (ausencia total de
+recopilación de datos) se destacaría de forma visible en la ficha de la aplicación.</p>
+
+<h2>10. Contacto</h2>
+<p>Para cualquier consulta sobre privacidad: <a href="mailto:contact@lookerdevelopers.com">contact@lookerdevelopers.com</a></p>
+
+<hr class="divider">
+
+<section id="en" lang="en">
+
+<p class="lang-nav"><a href="#top">🇪🇸 Versión en español arriba</a> · 🇬🇧 English (this section)</p>
+
+<h1>Stickea Privacy Policy</h1>
+<p class="meta">Controller: Looker Developers (<a href="https://lookerdevelopers.com">lookerdevelopers.com</a>) ·
+Application: Stickea for Android (<code>com.lookerdevelopers.stickea</code>) ·
+Effective date: August 15, 2026</p>
+
+<div class="summary">
+  <strong>Summary:</strong> Stickea does not collect, transmit, or share any personal data.
+  All processing happens exclusively on your device. The application
+  <strong>does not even declare the Internet access permission</strong>, so it is technically
+  incapable of sending information to any server. This claim can be verified by inspecting the
+  application package.
+</div>
+
+<h2>1. What Stickea does</h2>
+<p>Stickea is a tool for creating stickers from screenshots of your screen. It lets you capture a
+frame (or a short sequence) of what is shown on the device, crop it, remove its background, and
+export it as a sticker.</p>
+
+<h2>2. Data we collect: none</h2>
+<ul>
+  <li>There are no user accounts and no sign-up.</li>
+  <li>We use no analytics, no advertising, and no third-party SDKs.</li>
+  <li>We collect no device identifiers, location, contacts, or any other data.</li>
+  <li>There are no Stickea servers: no infrastructure exists to send anything to.</li>
+</ul>
+
+<h2>3. Screen capture: how it works and who controls it</h2>
+<p>Screen capture is started <strong>by you and only you</strong>, by tapping the app's floating
+button. Before each usage session, the Android system shows its own screen-capture consent dialog,
+which you may decline; Stickea cannot capture anything without that consent, and Android requests
+it again every session. Captured frames are processed only in device memory and are discarded
+unless you decide to save the resulting sticker.</p>
+
+<h2>4. Local storage</h2>
+<p>Stickers you save are stored in the app's private storage area on your device. You can delete
+them individually or by pack from within the app. Uninstalling the app removes all data it stores.
+If you create a backup (ZIP file), that copy is saved wherever you choose and remains under your
+control.</p>
+
+<h2>5. When content leaves your device</h2>
+<p>Only when you decide, through an explicit action:</p>
+<ul>
+  <li>Adding a sticker pack to a third-party messaging application (e.g. WhatsApp).</li>
+  <li>Sending a sticker to a chat via Android's share mechanism.</li>
+  <li>Saving an image to the device gallery.</li>
+  <li>Sharing a backup file.</li>
+</ul>
+<p>From the moment you hand content to another application or service, that content is governed by
+the receiving service's privacy policy, which may sync it to its own servers or backups (for
+example, stickers added to a messaging application may be synced under that application's terms).
+Stickea takes no part in that syncing and has no access to it.</p>
+
+<h2>6. Permissions the app requests</h2>
+<table>
+  <tr><th>Permission</th><th>What it is used for</th></tr>
+  <tr><td>Display over other apps</td>
+      <td>Drawing the floating button and the cropper over the screen.</td></tr>
+  <tr><td>Foreground service (screen capture)</td>
+      <td>Keeping the capture session active while you use the floating button, with a visible
+          notification that lets you stop it at any time.</td></tr>
+  <tr><td>Notifications</td>
+      <td>Showing the floating button's status notification and its stop action.</td></tr>
+</table>
+<p>The app does <strong>not</strong> request access to the Internet, location, contacts, camera,
+microphone, or your files (except the gallery save you initiate, which uses the system mechanism
+without any read permission).</p>
+
+<h2>7. Children</h2>
+<p>Stickea is not directed at children under 13. In any case, the app collects no data from any
+user, children included.</p>
+
+<h2>8. Your responsibility for content</h2>
+<p>What appears on your screen when you choose to capture it is content you select. You are solely
+responsible for ensuring you have the right to capture, use, and share that content. See the
+<a href="terms.html">Terms of Use</a>.</p>
+
+<h2>9. Changes to this policy</h2>
+<p>If this policy changes, we will publish the updated version at this same address with a new
+effective date. Any change affecting the fundamental principle (zero data collection) would be
+prominently highlighted on the app's store listing.</p>
+
+<h2>10. Contact</h2>
+<p>For any privacy inquiries: <a href="mailto:contact@lookerdevelopers.com">contact@lookerdevelopers.com</a></p>
+
+</section>
+</main>
+<footer>© 2026 Looker Developers · <a href="index.html">Inicio / Home</a> · <a href="terms.html">Términos / Terms</a></footer>
+</body>
+</html>
